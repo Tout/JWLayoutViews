@@ -25,6 +25,7 @@
 #import <UIKit/UIKit.h>
 
 typedef enum {
+    kJWConstraintNone = 0,
     kJWConstraintMinX = 1 << 0,
     kJWConstraintMidX = 1 << 1,
     kJWConstraintMaxX = 1 << 2,
